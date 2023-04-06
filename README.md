@@ -1,2 +1,3 @@
 # quankun-container
-使用qiankun框架,整合vue、react或者其他框架的项目
+
+使用 qiankun 框架,整合 vue、react 或者其他框架的项目
