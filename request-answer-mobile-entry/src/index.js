@@ -28,16 +28,22 @@ if (!window.__POWERED_BY_QIANKUN__) {
 }
 
 export async function bootstrap() {
-  console.log("[react16] react app bootstraped");
+  // console.log("[react16] react app bootstraped");
 }
 
 export async function mount(props) {
-  console.log("[react16] props from main framework", props);
+  // console.log("[react16] props from main framework", props);
   render(props);
 }
 
-export async function unmount() {
-  // ReactDOM.unmountComponentAtNode(document.querySelector("#mobile-app"));
+export async function unmount(props) {
+  // console.log(props, "unmount");
+  // const { container } = props;
+  // const unmountElement = container
+  //   ? container.querySelector("#mobile-app")
+  //   : document.getElementById("mobile-app");
+  // console.log(document.getElementById("mobile-app"), "90000");
+  // ReactDOM.createRoot(unmountElement).unmount();
 }
 
 reportWebVitals();

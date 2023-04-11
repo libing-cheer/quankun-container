@@ -1,5 +1,9 @@
 <template>
-  <Home />
+  <router-view>
+    <keep-alive>
+      <Home />
+    </keep-alive>
+  </router-view>
 </template>
 <script>
 import { defineComponent } from "vue";

@@ -1,34 +1,18 @@
 <template>
-  <div class="home">
-    <img class="App-logo" :src="Logo" alt="Logo" />
+  <div class="vue__home">
+    <CarModel />
   </div>
 </template>
 
 <script>
 import { defineComponent } from "vue";
-import Logo from "../assets/logo.png";
+import CarModel from "../components/CarModel.vue";
+
 export default defineComponent({
+  components: { CarModel },
   setup() {
-    return {
-      Logo,
-    };
+    return {};
   },
 });
 </script>
-<style lang="scss" scoped>
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-</style>
+<style lang="scss" scoped></style>

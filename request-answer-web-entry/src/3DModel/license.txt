@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pietracamela | ITALY
+* source:	https://sketchfab.com/3d-models/pietracamela-italy-c633b0beda1243e68e07f976d0ae9eba
+* author:	Arqueomodel3D (https://sketchfab.com/juanbrualla)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pietracamela | ITALY" (https://sketchfab.com/3d-models/pietracamela-italy-c633b0beda1243e68e07f976d0ae9eba) by Arqueomodel3D (https://sketchfab.com/juanbrualla) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
